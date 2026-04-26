@@ -53,7 +53,9 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          # 2. 这里是 Home Manager 的具体配置
+          # 备份原有的配置文件，避免覆盖
+          home-manager.backupFileExtension = "bak";
+          # 这里是 Home Manager 的具体配置
           home-manager.users.jing = import ./home.nix; 
         }
         nix-homebrew.darwinModules.nix-homebrew

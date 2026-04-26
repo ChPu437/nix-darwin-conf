@@ -15,6 +15,9 @@
       "topnotch"
       "ghostty"
       "playcover-community"
+      "google-gemini"
+      "mos"
+      "obsidian"
     ];
 
     # 如果以后有 App Store 软件也可以写在这
